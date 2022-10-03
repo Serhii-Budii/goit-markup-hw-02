@@ -1,0 +1,58 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+/* ------HEAD--------- */
+.header-link, .header-tel{
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+
+color: #212121;
+}
+
+.header-mail{
+color: #2196F3;
+}
+
+.header-tel{
+color: #757575;
+}
+
+/* ------HERO------- */
+.hero-title{
+font-style: normal;
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+/* or 136% */
+
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+
+color: #FFFFFF;
+}
+
+.hero-title-btn{
+font-weight: 700;
+font-size: 16px;
+line-height: 30px;
+/* identical to box height, or 188% */
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+
+color: #FFFFFF;
+}
