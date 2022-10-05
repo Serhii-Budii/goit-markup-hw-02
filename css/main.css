@@ -9,7 +9,8 @@ body {
 .link {
     text-decoration: none;
 }
-.link:hover {
+.link:hover,
+.link:focus {
   color: #2196f3;
 }
 /* ------HEAD--------- */
