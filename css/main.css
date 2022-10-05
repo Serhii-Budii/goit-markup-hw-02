@@ -42,28 +42,29 @@ letter-spacing: 0.02em;
 color: #212121;
 }
 
-.header-mail{
-color: #2196F3;
-}
-
+.header-mail,
 .header-tel{
 color: #757575;
+}
+.header-item .current {
+color: #2196f3;
 }
 
 /* ------HERO------- */
 .hero{
-background-color: #2F303A;;
+background-color: #2F303A;
 }
-.hero-title{
-font-style: normal;
+.hero-title {
 font-weight: 900;
 font-size: 44px;
 line-height: 1.36;
-
+text-transform: uppercase;
+letter-spacing: 0.06em;
 color: #FFFFFF;
 }
 
 .hero-title-btn{
+font-family: inherit;
 font-weight: 700;
 font-size: 16px;
 line-height: 1.88;
@@ -77,10 +78,9 @@ line-height: 1.14;
 
 color: #212121;
 }
-.content-text {
-font-weight: 400;
+.content-text{
 font-size: 14px;
-line-height: 1.71px;
+line-height: 1.71;
 
 color: #757575;
 }
@@ -104,7 +104,7 @@ color: #212121;
 }
 .team-special {
 font-weight: 400;
-font-size: 16px;
+
 line-height: 1.19;
 
 color: #757575;
@@ -123,6 +123,7 @@ line-height: 1.19;
 color: #FFFFFF;
 }
 .adress{
+font-style: normal;
 font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
@@ -132,7 +133,7 @@ color: #FFFFFF;
 
 .footer-mail,
 .footer-tel {
-font-weight: 400;
+
 font-size: 14px;
 line-height: 1.71;
 
@@ -156,8 +157,7 @@ line-height: 2;
 color: #212121;
 }
 .portfol-text {
-font-weight: 400;
-font-size: 16px;
+
 line-height: 1.88;
 
 color: #757575;
