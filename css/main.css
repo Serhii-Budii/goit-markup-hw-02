@@ -103,9 +103,7 @@ line-height: 1.19;
 
 color: #212121;
 }
-.team-special {
-font-weight: 400;
-
+.team-special{
 line-height: 1.19;
 
 color: #757575;
@@ -125,7 +123,7 @@ color: #FFFFFF;
 }
 .adress{
 font-style: normal;
-font-weight: 400;
+
 font-size: 14px;
 line-height: 1.71;
 
@@ -134,7 +132,7 @@ color: #FFFFFF;
 
 .footer-mail,
 .footer-tel {
-
+font-style: normal;
 font-size: 14px;
 line-height: 1.71;
 
